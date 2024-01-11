@@ -1,2 +1,2 @@
 # Nafida_Hospital
-Nafida HealthCare Hospital
+Nafida Multispeciality Hospital
