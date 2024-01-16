@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Nafida Hospital - Multi Speciality HealthCare Services</title>
     <style>
       body {
@@ -16,7 +16,7 @@
         width: 1280px;
         height: 50px;
         background: #1b1a1a;
-        margin: -15px -8px;
+        margin: 0px 0px;
       }
       .headernav > ul {
         list-style: none;
@@ -24,13 +24,14 @@
       }
       .headernav > ul > li:hover > a {
         background: #ff6347;
+        height: 50px;
       }
       .headernav > ul > li {
         float: left;
       }
       .headernav > ul > li > a {
         display: inline-block;
-        height: 12px;
+        height: 50px;
         line-height: 12px;
         padding: 19px;
         color: #fff;
@@ -38,12 +39,6 @@
       }
       .home {
         background: #492d27;
-      }
-      .ufoimg {
-        background-image: url("img/ufo.png");
-        background-repeat: no-repeat;
-        background-size: 15px 15px;
-        background-position: 0px 15px;
       }
       .submenu {
         position: absolute;
@@ -56,7 +51,7 @@
       .menu > li {
         position: relative;
         font-weight: bold;
-      }
+      }      
       .submenu > li > a {
         display: block;
         width: 224px;
@@ -115,15 +110,16 @@
           padding-left: 26px;
           vertical-align: top;
       }
+      .logo_img > img{
+        height: 300px;
+        width: 400px;
+      }
     </style>
   </head>
 
   <body>
     <nav class="headernav">
       <ul class="menu">
-        <li>
-          <a href="#" class="ufoimg"> Company Logo</a>
-        </li>
         <li>
           <a href="index.html" class="home">Home</a>
         </li>
@@ -251,5 +247,13 @@
         </li>
       </ul>
     </nav>
+
+
+    <div class="logo_img">
+      <img src="img/Nafida_logo.png" alt="nafida logo is loading...">
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
